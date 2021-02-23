@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+  }
+ 
+header {
+  text-align: center;
+  padding: 0px;
+  height: 0px;
+}
+nav {
+  float: right;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+}
+
+/* keeps nav bar to the right and fills it  */
+/* takes away bullet points in nav */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+/* keeps the nav links together and side by side */
+.nav li {
+  display: inline-block;
+  padding-top: 0px;
+  position: static;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+/* turns white when hovered over */
+nav a:hover{
+  color: blue;
+}
+
+body {
+  margin: 0;
+  background:#FFC400;
+  padding: 0px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  
+}
+/* heros goes here */
+
+.heroContainer {
+  background-image: url(https://images.unsplash.com/photo-1482057638314-8bc5dc8c3c53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+  background-repeat: no-repeat;
+  padding: 250px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5%;
+}
+
+.heroHeader {
+  text-align: center;
+}
+.home1{
+  margin-bottom: 5%;
+}
+.heroContainerTodo{
+  background-image: url(https://images.unsplash.com/photo-1482775907821-a56ec43344fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80);
+  background-repeat: no-repeat;
+  padding: 300px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroHeaderTodo{
+  text-align: center;
+  height: 150px;
+    
+}
+ 
+.heroContainerRestaurants {
+  background-image: url(https://images.unsplash.com/photo-1573586698628-19c2fddcff5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+  background-repeat: no-repeat;
+  padding: 300px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+.heroHeaderRestaurants{
+  text-align: center;
+}
+
+.heroContainerContact{
+  background-image: url(https://images.unsplash.com/photo-1550484851-72b4ea17cefe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+  background-repeat: no-repeat;
+  padding: 250px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroHeaderContact{
+  text-align: center;
+}
+  
+.icons {
+  width: 30px;
+}
+
+.footer {
+  background-color: black;
+  font-size: 12px;
+}
+.footer ul{
+  text-decoration: none;
+  list-style:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  width:100%;
+  color: white;
+}
+/* sits right in the footer */
+.logo{
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+.title2{
+  background-color: #FFC400;
+  background-repeat: no-repeat;
+  padding: 90px 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+.activities {
+  text-align: center;
+  top: 500px;
+  right: 450px;
+}
+/* provides spacing between actitives */
+.activities1{
+  margin-bottom: 5%;
+}
+.foods{
+  margin-bottom: 5%;
+}
+.contact{
+  width: 300px;
+  border: 10px;
+  padding: 50px;
+  margin: auto;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.forminput{
+  margin: auto;
+  padding: 10px 10px;
+}
+
+input{
+  width: 100px;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
